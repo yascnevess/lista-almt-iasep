@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+
+header{
+    padding: 20px 0;
+    background: linear-gradient(to right, #0b6209, #0b6209);
+    box-shadow: 2px 2px 2px 2px #adbbb1;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu{
+    padding-top: 50px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    line-height: 1.5;
+}
+
+#search {
+ display: flex;
+    align-items: center;
+    border: 1px solid rgba(187, 189, 187, 0.952);
+    background-color: #eeeeee;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 11px 11px;
+    color: #2f562f;
+}
+
+#input-busca {
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.topo {
+    margin: auto;
+    text-align: center;
+    color: #0f6418;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 5px 5px;
+    /* nome do setor telefone e ramal*/
+}
+
+main > table.lista {
+    color: rgb(41, 94, 31);
+    background-color: #e7efe7;
+    margin: auto;
+    padding: 2%;
+    /* nome dos setores etc*/
+    
+}
+
+.lista {
+    width: 700px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    
+}
+  
+  .lista th,
+  .lista td {
+    border: 5px solid #ffffff;
+    padding: 8px;
+
+ }
+  
+  .lista th {
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+   
+  }
+  
+  .lista tr:nth-child(even) {
+    background-color: #dadada;
+    
+  }
+  
+  .lista tr:hover {
+    background-color: #d6dad7;
+  }
+  
+  .phone-list {
+    margin-top: 20px;
+  }
+  
+ h1{
+    display: block;
+    margin: auto;
+    text-align: justify;
+    color: #034e0a;
+    text-align: center;
+    /* nome Lista Telefonica */
+}
